@@ -49,9 +49,9 @@ import re
 import os
 
 
-API_ID = 15052451
-API_HASH = "dbf8fdfc66d7a1a9bf359c036409aa14"
-BOT_TOKEN = "5515889587:AAGRAeVMJE9VpTtxukgo90f-Wvnfo2iuSK0"
+API_ID = 26368249
+API_HASH = "ac2db262d5eb7ce0efc0162404c8d172"
+BOT_TOKEN = "6713545950:AAG5Y-f4UDaVXeLnB1b1PV_NRW_OwaIk6m4"
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
