@@ -2,7 +2,7 @@
 
 ## Deploy To Heroku
 
-<a href="https://heroku.com/deploy?template=https://github.com/Shiv1320/leechxankush">
+<a href="https://heroku.com/deploy?template=https://github.com/Adity012/leechxankush">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 
