@@ -8,3 +8,7 @@ aiohttp
 aiofiles
 asyncio
 humanize
+pycurl
+cryptg
+telethon
+python-decouple
