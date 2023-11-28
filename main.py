@@ -51,7 +51,7 @@ import os
 
 API_ID = 26368249
 API_HASH = "ac2db262d5eb7ce0efc0162404c8d172"
-BOT_TOKEN = "6713545950:AAG5Y-f4UDaVXeLnB1b1PV_NRW_OwaIk6m4"
+BOT_TOKEN = "6393747028:AAE8s8N0Jfh_-KXehs6Rby166z34iXdRLJs"
 bot = Client(
     "bot",
     bot_token=BOT_TOKEN,
@@ -61,7 +61,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"])& ~filters.edited)
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by BATMAN")
+    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by LPRPDV")
 
 @bot.on_message(filters.command(["cancel"]))
 async def cancel(_, m):
@@ -467,8 +467,8 @@ async def account_login(bot: Client, m: Message):
             try:
                 Show = f"**Downloading:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`\n\n"
                 prog = await m.reply_text(Show)
-                cc = f'**Title »** {name1} {res}.mkv\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
-                cc1 =f'**Title »** {name1} {res}.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
+                cc = f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.mkv\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
+                cc1 =f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
                 if cmd == "pdf" or "drive" in url:
                     try:
                         ka=await helper.download(url,name)
