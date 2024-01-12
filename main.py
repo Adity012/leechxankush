@@ -61,7 +61,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"])& ~filters.edited)
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nBot made by LPRPDV")
+    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\n**Bot Made By LPRPDV**")
 
 @bot.on_message(filters.command(["cancel"]))
 async def cancel(_, m):
@@ -465,10 +465,10 @@ async def account_login(bot: Client, m: Message):
 
 
             try:
-                Show = f"**Downloading:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`\n\n"
+                Show = f"**Downloading 📤:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`\n\n**FATHER OF BOT LPRPDV ♥️"
                 prog = await m.reply_text(Show)
-                cc = f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.mkv\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
-                cc1 =f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}'
+                cc = f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.mkv\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}**Dawnlod By»** {raw_text0}'
+                cc1 =f'**Title »** {name1} {res} 𝐋𝐏𝐑𝐏𝐃𝐕.pdf\n**Caption »** {raw_text0}\n**Index »** {str(count).zfill(3)}**Dawnlod By»** {LPRPDV}'
                 if cmd == "pdf" or "drive" in url:
                     try:
                         ka=await helper.download(url,name)
